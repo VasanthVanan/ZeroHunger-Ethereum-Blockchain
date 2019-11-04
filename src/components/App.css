@@ -1,0 +1,116 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #000;
+}
+
+span{
+	font-size: 25px;
+	color: lightblue;
+}
+
+#lab{
+  color: white;
+  font-size: 20px;
+}
+
+.Basic-details{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.panel{
+	color: white;
+}
+
+
+.user-display{
+	font-size: 20px;
+}
+
+.airwave{
+  border: 5px  inset orange;
+  height: 700px;
+}
+
+#share{
+      width: 800px;
+      height: 500px;
+      background-image: url("radar.gif");
+      background-color: #000;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+
+#acc1{
+  left: 50px;
+  top: 50px;
+}
+
+/*IMG ANIMATION*/
+#heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+          animation: heartbeat 1.5s ease-in-out infinite both;
+
+
+}
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.90);
+            transform: scale(0.90);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.90);
+            transform: scale(0.90);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  
+  10% {
+    -webkit-transform: scale(0.90);
+            transform: scale(0.90);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.88);
+            transform: scale(0.88);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  
+}
