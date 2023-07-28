@@ -11,5 +11,5 @@
  - Web Interface html - css4 - Web3.js
  - React Framework
  - Node.js
- - IPFS-client ( it is not exposed in the present directories)
+ - IPFS-client (it is not exposed in the present directories)
  - Solidity Programming Language.
